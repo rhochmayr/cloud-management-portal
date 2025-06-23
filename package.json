@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build-gh": "vite build --base=/cloud-management-portal/",
+    "build-gh": "vite build --base=./",
     "lint": "eslint .",
     "preview": "vite preview"
   },
