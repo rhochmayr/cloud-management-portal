@@ -7,10 +7,5 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
-  },
-  build: {
-    rollupOptions: {
-      input: 'index.html', // Tells Vite to use this HTML for bundling
-    },
-  }  
+  }
 });
