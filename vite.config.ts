@@ -10,5 +10,5 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: 'index.html', // Tells Vite to use this HTML for bundling
-    },  
+    }
 });
